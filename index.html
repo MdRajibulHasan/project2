@@ -10,21 +10,18 @@
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 </style>
-<style>
-    section {background: rgb(235, 232, 232); display:flex; justify-content: center; align-items: flex-start; padding: 20px;
-    }
-</style>
 </head>
 
-<body>
-    <section>
+<body class="bg-gray-100 text-white flex flex-col items-center py-8 ">
 
-    <div class="relative w-[1020px] h-[724px] overflow-hideen rounded-sm shadow-lg">
-        <img src="image/banner.png" alt="gym background" class="absolute inset-0 w-full object-cover">
-        <div class="absolute inset-0 bg-black/30"></div>
+    <div class="project-one w-full flex justify-center">
+
+    <div class="relative w-[1020px] h-[724px] overflow-hideen rounded-sm shadow-xl">
+        <img src="image/banner.png" alt="gym background" class="absolute inset-0 w-full h-full object-cover"/>
+        <div class="absolute inset-0 bg-black/45"></div>
 
         <!--NAVBAR-->
-        <nav class="absolute top-0 left-0 right-0 flex items-center justify-between px-16 py-6 z-10">
+        <nav class="absolute top-0 left-0 right-0 flex items-center justify-between px-16 py-6">
 
         <div>
             <h1 class="text-2xl font-extrabold text-orange-400">Bodyshape</h1>
@@ -36,20 +33,22 @@
             <a href="#" class="hover:underline">Services</a>
             <a href="#" class="hover:underline">About</a>
             <a href="#" class="hover:underline">Contacts</a>
-            <button class="ml-4 bg-orange-500 px-4 py-2 rounded text-gray-100 font-semibold transition duration-300 ease-in-out hover:bg-orange-600 hover:scale-105">Join Us</button>
+            <button class="ml-4 bg-orange-500 px-4 py-2 text-gray-100 rounded font-semibold text-white transition transform duration-300 hover:bg-orange-600 hover:scale-105">Join Us</button>
         </div>
         </nav>
+
         <!--Left box(top-left under navbar)-->
-        <div class="absolute top-[120px] left-[64px] w-[531px] h-[223px] z-10 bg-black/50 backdrop-sm p-6 flex-col justify-between">
+        <div class="absolute top-[120px] left-[64px] z-20 w-[531px] h-[223px  bg-black/50 backdrop-blur-sm p-6 flex flex-col justify-between">
             <div>
-                <h2 class="text-5xl text-gray-300 font-extrabold leading-tight">Transform <br>Your Body</h2>
+                <h2 class="text-5xl font-extrabold leading-tight">Transform <br>Your Body</h2>
                 <p class="mt-3 text-gray-300 text-sm">We are dedicated to helping you transform your <br> body and mind through the power of fitness.</p>
             </div>
-            <!--Button-->
-            <div class="flex items-center space-x-4 mt-4">
-                <button class="bg-orange-500 px-5 py-2 rounded shadow-sm font-medium text-gray-100 transition duration-300 ease-in-out hover:bg-orange-600 hover:scale-105">Get started</button>
 
-                <button class="flex items-center gap-2 border border-orange-400 px-4 py-2 rounded transition duration-300 ease-in-out hover:bg-orange-600 hover:scale-105">
+            <!--Button-->
+            <div class="flex items-center space-x-4 mt-2">
+                <button class="bg-orange-500 px-5 py-2 rounded shadow-sm font-medium text-white transition transform duration-300 hover:bg-orange-600 hover:scale-105">Get started</button>
+
+                <button class="flex items-center gap-2 border border-orange-400 px-4 py-2 rounded text-orange-200 transition transform duration-300 hover:bg-orange-500 hover:text-black hover:scale-105">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-gray-300" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M4 2v20l18-10L4 2z"/></svg>
                          <span class="text-sm text-gray-300">Watch Reviews</span>
@@ -57,48 +56,162 @@
             </div>
         </div>
         <!--Social Logos-->
-        <div class="absolute bottom-6 left-6 z-10">
-            <div class="flex items-center bg-orange-500 px-4 py-2 space-x-4 text-white [clip-path:polygon(0%_0%,100%_0%,85%_100%,0%_100%)]">
-            <a href="#">
-                <img src="image/google 1.png" alt="G" class="w-5 h-5"></a>
+        <div class="absolute bottom-6 left-6 z-20">
+            <div class="flex items-center bg-orange-500 px-4 py-2 space-x-4 text-white overflow-hidden [clip-path:polygon(0%_0%,100%_0%,85%_100%,0%_100%)]">
+            <a href="#" class="flex items-center justify-center">
+                <img src="image/google 1.png" alt="G" class="w-6 h-6"></a>
 
-            <a href="#">
-                <img src="image/facebook.png" alt="F" class="w-5 h-5"></a>
+            <a href="#" class="flex items-center justify-center">
+                <img src="image/facebook.png" alt="F" class="w-6 h-6"></a>
 
-            <a href="#">
-                <img src="image/youtube (1).png" alt="Y" class="w-5 h-5"></a>
+            <a href="#" class="flex items-center justify-center">
+                <img src="image/youtube (1).png" alt="Y" class="w-6 h-6"></a>
             </div>
             
         </div>
 
     </div>
-    </section>
+</div>
 
-    <!-- Fitness plan & Nutrition-->
-    <section class="bg-black flex flex-col item-center py-10">
+    <!--2nd Step -->
 
-        <h2 class="text-3xl font-extrabold text-white mb-6">
-                    Fitness Plans &amp; <span class="text-orange-400">Nutritions</span> 
-                </h2
+        <div class=" flex justify-center">
 
-                    <div class="absolute inset-0 bg-black/55"></div>
+    <div class="relative w-[1020px] h-[600px] overflow-hideen top-0">
+        <img src="image/roated_banner.png" alt="gym background" class="absolute inset-0 w-full h-full object-cover"/>
 
-                    <div class="relative z-10 h-full grid grid-cols-3 grid-rows-2">
-                        <div class="flex flex-col items-center justify-center text-center px-6 border border-orange-500/30">
-                            <img src="image/workout 1.png" class="w-12 h-12 invert mb-3" alt="A"/>
-                            <h3 class="text-lg font-bold text-white mb-2">Weight Loss</h3>
-                            <p class="text-xs text-gray-300">Weight loss can have causes that aren't due to underlying disease. Examples include dieting, exercise, malnutrition or lack of access to food.</p>
-                        </div>
+        <h2 class="absolute top-4 left-8 z-10 text-3xl font-extrabold">Fitness Plan & <span class="text-orange-500">Nutritions</span></h2>
+        <div class="absolute inset-0 bg-black/45">
+
+        </div>
+
+
+        <div class="relative mt-8 absolute inset-0 flex justify-center items-center">
+
+            <div class="absolute top-0 bottom-0 left-1/3 w-px bg-orange-600/40"></div>
+        <div class="absolute top-0 bottom-0 left-2/3 w-px bg-orange-600/40">
+            
+        </div>
+         <div class="absolute left-0 right-0 top-1/2 h-px bg-orange-600/40"></div>
+
+            <div class="relative grid grid-cols-3 grid-rows-2 gap-x-10 gap-y-8">
+
+                <div class="bg-black/50 px-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/workout 1.png" class="w-16 h-16 mx-auto mb-4" alt="Weight Loss">
+                    <h3 class="font-bold text-lg mb-2">Weight Loss</h3>
+                    <p class="text-gray-300 text-sm">Weight loss can have causes that aren't due to underlying disease. Examples include dieting, exercise, malnutrition or lack of access to food.</p>
                 </div>
-                
 
-    </section>
+                <div class="bg-black/50 p-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/yoga 1.png" class="w-16 h-16 mx-auto mb-4" alt="Classic Yoga">
+                    <h3 class="font-bold text-lg mb-2"> Classic Yoga</h3>
+                    <p class="text-gray-300 text-sm">The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a posture-based physical fitness, stress-relief.</p>
+                </div>
 
-    <section>
-        <div>Hello git </div>
-    </section>
+                <div class="bg-black/50 p-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/bicycle 1.png" class="w-16 h-16 mx-auto mb-4" alt="Cycling">
+                    <h3 class="font-bold text-lg mb-2">Cycling</h3>
+                    <p class="text-gray-300 text-sm">Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of cycles for transport, recreation, exercise or sport</p>
+                </div>
+
+                <div class="bg-black/50 p-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/biceps.png" class="w-16 h-16 mx-auto mb-4" alt="Body Building">
+                    <h3 class="font-bold text-lg mb-2">Body Building</h3>
+                    <p class="text-gray-300 text-sm">Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles by muscle hypertrophy for aesthetic purposes.</p>
+                </div>
+
+                <div class="bg-black/50 p-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/fitness.png" class="w-16 h-16 mx-auto mb-4" alt="Musculation">
+                    <h3 class="font-bold text-lg mb-2">Musculation</h3>
+                    <p class="text-gray-300 text-sm">Weight training is a common type of strength training for developing the strength, size of skeletal muscles and maintenance of strength</p>
+                </div>
+
+                <div class="bg-black/50 p-6 rounded-xl text-center w-64 h-64 flex flex-col justify-center">
+                    <img src="image/runer-silhouette-running-fast.png" class="w-16 h-16 mx-auto mb-4" alt="Fitness Running">
+                    <h3 class="font-bold text-lg mb-2">Fitness Running</h3>
+                    <p class="text-gray-300 text-sm">Running is a method of terrestrial locomotion allowing humans and other animals to move rapidly on foot.</p>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        </div>
+
+        <!--step 3-->
+
+        <div class="flex justify-center -mt-0">
+    <div class="relative w-[1020px] justify-center bg-black h-[500px]">
+
+      <!-- heading top-left inside this section -->
+      <h2 class="absolute top-8 left-8 z-10 text-3xl font-extrabold">
+        Subscribe To <span class="text-orange-400">Plans</span>
+      </h2>
+
+      <!-- plans cards row (left aligned like image) -->
+      <div class="absolute top-28 left-10 z-10 flex gap-10">
+
+        <!-- Card 1 -->
+        <div class="w-72 bg-gradient-to-b from-neutral-900 to-black border border-gray-700 rounded-lg p-8 shadow-md">
+          <h3 class="text-xl font-semibold mb-2 text-white text-center">Fit</h3>
+          <p class="text-gray-400 text-sm mb-4 text-center">Plan Exp. 16/11/2024</p>
+          <p class="text-3xl font-bold mb-1 text-center">₹1200<span class="text-sm font-medium text-gray-400"> /Month</span></p>
+          <p class="text-gray-300 text-sm mb-6 text-center">Streaming</p>
+          <div class="flex justify-center">
+            <button class="border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-black px-5 py-2 rounded transition-all">
+              Select Plan
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2 (Recommended) -->
+        <div class="relative w-72 bg-gradient-to-b from-neutral-900 to-black border border-gray-700 rounded-lg p-8 shadow-md">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-black text-xs font-semibold px-3 py-1 rounded">Recommended</div>
+          <h3 class="text-xl font-semibold mb-2 text-white text-center">Fit</h3>
+          <p class="text-gray-400 text-sm mb-4 text-center">Plan Exp. 16/11/2024</p>
+          <p class="text-3xl font-bold mb-1 text-center">₹1000<span class="text-sm font-medium text-gray-400"> /Month</span></p>
+          <p class="text-gray-300 text-sm mb-6 text-center">Streaming</p>
+          <div class="flex justify-center">
+            <button class="border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-black px-5 py-2 rounded transition-all">
+              Select Plan
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="w-72 bg-gradient-to-b from-neutral-900 to-black border border-gray-700 rounded-lg p-8 shadow-md">
+          <h3 class="text-xl font-semibold mb-2 text-white text-center">Fit</h3>
+          <p class="text-gray-400 text-sm mb-4 text-center">Plan Exp. 16/11/2024</p>
+          <p class="text-3xl font-bold mb-1 text-center">₹1500<span class="text-sm font-medium text-gray-400"> /Month</span></p>
+          <p class="text-gray-300 text-sm mb-6 text-center">Streaming</p>
+          <div class="flex justify-center">
+            <button class="border border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-black px-5 py-2 rounded transition-all">
+              Select Plan
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
 
 
-    
+            <!-- Project 3 -->
+<div class="w-[1020px] h-[500px] bg-black flex flex-col items-center justify-center text-white mx-auto">
+  <!-- Heading -->
+  <h2 class="text-4xl font-bold text-left-8 w-[80%] mb-12 ml-0">
+    Join Out <span class="text-orange-500">Trainer</span>
+  </h2>
+
+  <!-- Image Grid -->
+  <div class="flex justify-center gap-13">
+    <img src="image/Rectangle 8.png" alt="Trainer 1" class="w-60 h-[300px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+    <img src="image/Rectangle 9.png" alt="Trainer 2" class="w-60 h-[300px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+    <img src="image/Rectangle 10.png" alt="Trainer 3" class="w-60 h-[300px] object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+  </div>
+</div>
+            
+        
 </body>
 </html>
